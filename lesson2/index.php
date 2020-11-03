@@ -1,12 +1,3 @@
-<?php 
-	$title = 'Заголовок';
-	
-	$a = 1;
-	$b = 2;
-	$a = $a + $b;
-	$b = $a - $b;
-	$a = $a - $b;
-?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -55,7 +46,7 @@
 		</div>
 		
 		<div id="footer">
-		      <p>Copyright &copy; <em>minimalistica</em> &middot; Design: Luka Cvrk, <a href="http://www.solucija.com/" title="Free CSS Templates">Solucija</a></p>
+		      <p>Copyright &copy; <?= date('Y'); ?> <em>minimalistica</em> &middot; Design: Luka Cvrk, <a href="http://www.solucija.com/" title="Free CSS Templates">Solucija</a></p>
 		</div>	
 	</div>
 </body>
